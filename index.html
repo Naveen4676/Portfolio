@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chakali Naveen - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#" class="nav-link" data-section="certificates">Certificates</a></li>
+      <li><a href="#" class="nav-link" data-section="resume">Resume</a></li>
+      <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+      <li><button id="dark-mode-toggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- Profile Header -->
+  <header class="profile-header">
+    <img src="profile.jpeg" alt="Chakali Naveen" class="profile-photo">
+    <h1>Chakali Naveen</h1>
+    <p>AI & Web Developer | Passionate Innovator | ChatGPT | AI Tools</p>
+  </header>
+
+  <!-- Sections -->
+  <section id="about" class="section active">
+    <div class="container">
+      <h2>About Me</h2>
+      <p> Hi, I'm <strong>Chakali Naveen</strong>, a 3rd-year B.Tech student at 
+        <strong>SVR Engineering College, Nandyal</strong>, specializing in 
+        <strong>Artificial Intelligence</strong>. I am passionate about AI, 
+        Machine Learning, and Web Development. I love building innovative 
+        projects that integrate AI into real-world applications.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>FrontEnd Development</li>
+        <li>AI & Machine Learning Trainee</li>
+        <li>Python Programmer</li>
+        <li>ChatGPT</li>
+        <li>AI Tools</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>AI Chatbot</h3>
+          <p>Developed an AI chatbot with Gemini API.</p>
+          <a href="https://naveen4676.github.io/AI-Chatbot/" target="_blank" class="neon-button">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>Designed an interactive portfolio to showcase my skills.</p>
+          <a href="https://github.com/Naveen4676/Portfolio" target="_blank" class="neon-button">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2>Certificates</h2>
+      <div class="certificate-grid">
+        <img src="certificate1.png" alt="Certificate 1" class="certificate">
+        <img src="certificate2.png" alt="Certificate 2" class="certificate">
+        <img src="certificate3.png" alt="Certificate 3" class="certificate">
+        <img src="certificate4.png" alt="Certificate 4" class="certificate">
+        <img src="certificate5.png" alt="Certificate 5" class="certificate">
+        <img src="certificate6.jpg" alt="Certificate 6" class="certificate">
+        <img src="certificate7.png" alt="Certificate 7" class="certificate">
+        <img src="certificate8.png" alt="Certificate 8" class="certificate">
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="Resume.pdf" download class="neon-button">Download My Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Email: <a href="mailto:chakalinaveen4201@gmail.com">chakalinaveen4201@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/chakali-naveen" target="_blank">linkedin.com/in/chakali-naveen</a></li>
+        <li>GitHub: <a href="https://github.com/Naveen4676" target="_blank">github.com/Naveen4676</a></li>
+      </ul>
+      <div id="lightbox">
+        <span id="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded Certificate">
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
